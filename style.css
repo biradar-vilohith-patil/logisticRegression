@@ -1,0 +1,40 @@
+.stButton > button {
+    width: 100%;
+    background-color: #2e66ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stButton > button:hover {
+    background-color: #1a4cdb;
+    color: white;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-1px);
+}
+
+.stButton > button:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+div[data-baseweb="input"] {
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+div[data-baseweb="input"]:focus-within {
+    border-color: #2e66ff;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    color: #1e1e1e;
+    text-align: center;
+    padding-bottom: 10px;
+}
