@@ -7,10 +7,10 @@ st.set_page_config(page_title="Demographic Prediction", layout="centered")
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-with open(r'C:\Users\DELL\Desktop\LogisticReg\models\model.pkl', 'rb') as model_file:
+with open('models/model.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
-with open(r'C:\Users\DELL\Desktop\LogisticReg\models\scaler.pkl', 'rb') as scaler_file:
+with open('models/scaler.pkl', 'rb') as scaler_file:
     scaler = pickle.load(scaler_file)
 
 st.title("Demographic Outcome Predictor")
